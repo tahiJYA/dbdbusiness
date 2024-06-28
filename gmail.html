@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje de Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: #000000;
+        }
+        .contact-details {
+            margin-bottom: 20px;
+        }
+        .message {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 4px;
+            border-radius: 15px;
+        }
+
+        .contenedor_logo{
+            border-radius: 0px;
+            background-color: transparent;
+            padding: 0px;
+            margin: 0;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            position: relative; /* Necesario para el pseudo-elemento */
+            transition: 0.25s;
+            cursor: pointer;
+        }
+
+        .color_1{
+            background-color: #013953;
+            width: 50%;
+            height: 4px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .color_2{
+            background-color: #ff1801;
+            width: 50%;
+            height: 4px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .contenedor_colores{
+            background-color: transparent;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contenedor_logo">
+            <img src="https://dbdbusiness.com/dbdglobal/assets/img/logodbd.png" alt="DBD BUSINESS" title="DBD BUSINESS" style="margin-bottom: 20px;">
+            <div class="contenedor_colores">
+                <div class="color_1"></div>
+                <div class="color_2"></div>
+            </div>
+        </div>
+
+        <h2>Mensaje de Contacto</h2>
+        <div class="contact-details">
+            <p><strong>Nombre:</strong> ' . $nombre . '</p>
+            <p style="color: #FF1801;"><strong style="color: #FF1801;">Correo Electrónico:</strong> ' . $email . '</p>
+            <p><strong>Teléfono:</strong> ' . $telefono . '</p>
+            <p><strong>País:</strong> ' . $pais . '</p>
+            <p><strong>Estado/Ciudad:</strong> ' . $estado . '</p>
+        </div>
+        <div class="message">
+            <p><strong>Mensaje:</strong></p>
+            <p>' . nl2br($mensaje) . '</p>
+        </div>
+    </div>
+</body>
+</html>

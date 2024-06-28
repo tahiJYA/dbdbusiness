@@ -1,0 +1,728 @@
+<?php
+
+?>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBD BUSINESS</title>
+
+
+
+    <!-- -------------- -->
+    <!-- ÍCONO | INICIO -->
+    <!-- -------------- -->
+    <link rel="icon" href="assets/img/logodbd.webp" type="image/webp">
+    <link rel="apple-touch-icon" href="assets/img/logodbd.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="assets/img/logodbd.ico" type="image/x-icon">
+    <!-- -------------- -->
+    <!-- ÍCONO |  FINAL -->
+    <!-- -------------- -->
+
+
+
+    <!-- --------------------- -->
+    <!-- LOCAL STYLES | INICIO -->
+    <!-- --------------------- -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <!-- --------------------- -->
+    <!-- LOCAL STYLES |  FINAL -->
+    <!-- --------------------- -->
+
+
+
+    <!-- --------------------- -->
+    <!-- GOOGLE FONTS | INICIO -->
+    <!-- --------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- --------------------- -->
+    <!-- GOOGLE FONTS |  FINAL -->
+    <!-- --------------------- -->
+
+
+
+    <!-- ------------ -->
+    <!-- AOS | INICIO -->
+    <!-- ------------ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ------------ -->
+    <!-- AOS |  FINAL -->
+    <!-- ------------ -->
+
+
+
+    <!-- -------------------- -->
+    <!-- SWEETALERT2 | INICIO -->
+    <!-- -------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- ------------------- -->
+    <!-- SWEETALERT2 | FINAL -->
+    <!-- ------------------- -->
+
+
+
+    <!-- ---------------- -->
+    <!-- AWESOME | INICIO -->
+    <!-- ---------------- -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- ---------------- -->
+    <!-- AWESOME |  FINAL -->
+    <!-- ---------------- -->
+</head>
+<body class="body">
+    <nav class="nav">
+        <a href="#">
+            <img src="assets/img/logodbd.png" class="imagen_logo_nav" alt="Logo de DBD Business">
+        </a>
+        <div class="contenedor_botones_nav">
+            <a href="files/blog.html" id="id_opciones_nav_1" class="enlace_nav">
+                <button class="boton_nav">BLOG</button>
+            </a>
+            <a href="#alcance" id="id_opciones_nav_1" class="enlace_nav">
+                <button class="boton_nav">PLATAFORMA</button>
+            </a>
+            <a href="files/personal_shopper.html" id="id_opciones_nav_2" class="enlace_nav">
+                <button class="boton_nav">PERSONAL SHOPPER</button>
+            </a>
+            <a href="files/about.html" id="id_opciones_nav_3" class="enlace_nav">
+                <button class="boton_nav">ABOUT</button>
+            </a>
+            <a href="files/3d_y_renderizacion.html" id="id_opciones_nav_4" class="enlace_nav">
+                <button class="boton_nav">3D Y RENDERIZACIÓN</button>
+            </a>
+            <div class="display_menu" id="id_menu_icono">
+                <i class="fa-solid fa-bars" onClick="javascript:menu()"></i>
+            </div>
+            <div class="display_menu_2" id="id_cerrar_icono">
+                <i class="fa-solid fa-xmark" onClick="javascript:cerrar()"></i>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <header class="header">
+        <video id="headerVideo" class="header_video" autoplay loop muted>
+            <source src="assets/img/video_1.mp4" type="video/mp4">
+        <!-- Añade más sources si tienes diferentes formatos de video -->
+        </video>
+        </header>
+
+
+        <section class="section_universal_2">
+            <div class="tarjeta_universal_2">
+                <div class="tarjeta_section_universal_2_seccion_1">
+                    <div class="contenedor_imagen_tarjeta_universal_2">
+                        <img src="assets/img/mision.png" alt="" title="" class="imagen_tarjeta_2">
+                    </div>
+                    <div class="contenedor_texto_tarjeta_universal_2">
+                        <p class="texto_tarjeta_universal_2">MEDIA</p>
+                    </div>
+                </div>
+                <div class="tarjeta_section_universal_2_seccion_2">
+                    <p class="texto_descripcion_tarjeta_universal_2">Descubre cómo DBD BUSINESS utiliza medios innovadores y estrategias digitales avanzadas para destacar tu propiedad en el mercado inmobiliario.</p>
+                </div>
+            </div>
+            <div class="tarjeta_universal_2">
+                <div class="tarjeta_section_universal_2_seccion_1">
+                    <div class="contenedor_imagen_tarjeta_universal_2">
+                        <img src="assets/img/vision.png" alt="" title="" class="imagen_tarjeta_2">
+                    </div>
+                    <div class="contenedor_texto_tarjeta_universal_2">
+                        <p class="texto_tarjeta_universal_2">DESARROLLO INMOBILIARIO</p>
+                    </div>
+                </div>
+                <div class="tarjeta_section_universal_2_seccion_2">
+                    <p class="texto_descripcion_tarjeta_universal_2">En DBD BUSINESS, transformamos espacios en comunidades vibrantes y sostenibles, desde la concepción hasta la entrega del proyecto.</p>
+                </div>
+            </div>
+            <div class="tarjeta_universal_2">
+                <div class="tarjeta_section_universal_2_seccion_1">
+                    <div class="contenedor_imagen_tarjeta_universal_2">
+                        <img src="assets/img/valor.png" alt="" title="" class="imagen_tarjeta_2">
+                    </div>
+                    <div class="contenedor_texto_tarjeta_universal_2">
+                        <p class="texto_tarjeta_universal_2">INVERSIÓN</p>
+                    </div>
+                </div>
+                <div class="tarjeta_section_universal_2_seccion_2">
+                    <p class="texto_descripcion_tarjeta_universal_2">Encuentra oportunidades de inversión lucrativas con el asesoramiento experto de DBD BUSINESS en bienes raíces comerciales y residenciales.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_universal" id="beneficios">
+            <div class="contenendor_titulo_universal" data-aos="flip-up">
+                <div class="contenendor_imagen_del_titulo_universal">
+                    <img src="assets/img/dbd.png" alt="" title="" class="imagen_dbd_titulo_universal">
+                </div>
+                <p class="texto_contenendor_titulo_universal">DBD UN ESPACIO PARA TODOS</p>
+            </div>
+
+            <div class="contenedor_universal_section_universal" data-aos="fade-left">
+                <div class="contenedor_universal_texto">
+                    <p class="titulo_contenedor_universal">Tendencias del Mercado</p>
+                    <p class="descripcion_contenedor_universal">Sostenibilidad, alquiler en auge y tecnología innovadora. ¡Mantente informado y adelante en el sector!</p>
+                    <div class="contenedor_boton_2">
+                        <a href="files/notas/tendenciasdelmercado.html" target="_blank">
+                            <button class="boton_1">MÁS</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="contenedor_imagen_section_universal_1">
+                    <img src="assets/img/tendenciasdelmercado.webp" alt="" title="" class="imagen_section_universal_1">
+                </div>
+            </div>
+            <div class="contenedor_universal_section_universal" data-aos="fade-right">
+                <div class="contenedor_imagen_section_universal_1">
+                    <img src="assets/img/tecnologiainmobiliaria.png" alt="" title="" class="imagen_section_universal_1">
+                </div>
+                <div class="contenedor_universal_texto_3">
+                    <p class="titulo_contenedor_universal_3">Tecnología inmobiliaria</p>
+                    <p class="descripcion_contenedor_universal_3">Explora cómo la tecnología redefine el mercado inmobiliario con plataformas digitales y análisis predictivo</p>
+                    <div class="contenedor_boton_3">
+                        <a href="files/notas/tecnologiainmobiliaria.html" target="_blank">
+                            <button class="boton_1">MÁS</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_universal">
+            <div class="contenendor_titulo_universal" data-aos="flip-up">
+                <div class="contenendor_imagen_del_titulo_universal">
+                    <img src="assets/img/dbd.png" alt="" title="" class="imagen_dbd_titulo_universal">
+                </div>
+                <p class="texto_contenendor_titulo_universal">¿QUIENES SOMOS?</p>
+            </div>
+            <p class="frase_contenedor_universal" id="frase">"SOMOS UNA EMPRESA ENFOCADA AL SECTOR INMOBILIARIO Y DE NETWORKING"</p>
+            <div class="contenedor_imagen_section_universal_1" data-aos="fade-up">
+                <img src="assets/img/inmobiliarionet.jpeg" alt="" title="" class="imagen_section_universal_5" id="imagen" style="border-radius: 20px;">
+            </div>
+            <div class="contenedor_puntos">
+                <div class="circulo" id="circulo_1"></div>
+                <div class="circulo" id="circulo_2"></div>
+                <div class="circulo" id="circulo_3"></div>
+            </div>
+        </section>
+
+        <section class="section_universal" id="alcance">
+            <div class="contenendor_titulo_universal" data-aos="flip-up">
+                <div class="contenendor_imagen_del_titulo_universal">
+                    <img src="assets/img/dbd.png" alt="" title="" class="imagen_dbd_titulo_universal">
+                </div>
+                <p class="texto_contenendor_titulo_universal">SOMOS LA MEJOR OPCIÓN</p>
+            </div>
+
+
+
+            <p class="texto_descripcion_contenedor_universal">Con nuestra metodología y herramientas digitales, logramos que cualquier persona en el mundo pueda separar una propiedad en tiempo real, teniendo asi la mejor experiencia de compra.</p>
+
+
+
+            <div class="contenedor_estadisticas">
+                <div class="tarjeta_circulos_estadistica">
+                    <div class="circulo_estadistica">
+                        <span class="porcentaje" data-target="93">93%</span>
+                    </div>
+                    <div class="contenedor_texto_porcentaje">
+                        <p class="texto_porcentaje">Búsquedas por internet</p>
+                    </div>
+                </div>
+                <div class="tarjeta_circulos_estadistica">
+                    <div class="circulo_estadistica">
+                        <span class="porcentaje" data-target="37">37%</span>
+                    </div>
+                    <div class="contenedor_texto_porcentaje">
+                        <p class="texto_porcentaje">Las fotografías aumentan el interés de compra</p>
+                    </div>
+                </div>
+                <div class="tarjeta_circulos_estadistica">
+                    <div class="circulo_estadistica">
+                        <span class="porcentaje" data-target="150">150%</span>
+                    </div>
+                    <div class="contenedor_texto_porcentaje">
+                        <p class="texto_porcentaje">Las herramientas 3D aumentan el interés de compra</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_universal" id="inmuebles">
+            <div class="contenendor_titulo_universal" data-aos="flip-up">
+                <div class="contenendor_imagen_del_titulo_universal">
+                    <img src="assets/img/dbd.png" alt="" title="" class="imagen_dbd_titulo_universal">
+                </div>
+                <p class="texto_contenendor_titulo_universal">EL INMUEBLE PERFECTO PARA TI</p>
+            </div>
+
+
+            <p class="texto_descripcion_contenedor_universal">Somos la primera compañía en revolucionar el sistema de venta con  experiencias 3D inmersivas.</p>
+
+
+            <div class="contenedor_imagen_section_universal_2" data-aos="flip-left">
+                <div class="tarjeta_inmueble">
+                    <img src="assets/img/inmueble_2.jpeg" alt="" title="" class="imagen_section_universal_4">
+                            <?php
+                                // Primero asigna un valor a la variable $paisvariable
+                                $paisvariable = "MX";
+                                $paisvariable_2 = "FR";
+                                $paisvariable_3 = "CA";
+                                $paisvariable_4 = "CO";
+                                $paisvariable_5 = "ES";
+
+                                if (obtenerUbicacion() === $paisvariable) {
+                                    $resultado = "México";
+                                } elseif (obtenerUbicacion() === $paisvariable_2) {
+                                    $resultado = "Francia";
+                                } elseif (obtenerUbicacion() === $paisvariable_3) {
+                                    $resultado = "Canadá";
+                                } elseif (obtenerUbicacion() === $paisvariable_4) {
+                                    $resultado = "Colombia";
+                                } elseif (obtenerUbicacion() === $paisvariable_5) {
+                                    $resultado = "España";
+                                } else {
+                                    $resultado = "Otro país";
+                                }
+                            ?>
+                    <p class="texto_ciudad_inmueble"><?php echo $resultado; ?> (<?php echo obtenerUbicacion(); ?>)</p>
+                    <p class="texto_direccion_inmueble">Av. Montes Pirineos 705, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX</p>
+                    
+                    <?php
+                        // Función para obtener la ubicación del usuario basada en su dirección IP usando ipinfo.io
+                        function obtenerUbicacion() {
+                            $ip = $_SERVER['REMOTE_ADDR'];
+                            $details = json_decode(file_get_contents("https://ipinfo.io/{$ip}/json"));
+                            return strtoupper($details->country); // Devuelve el código de país en formato ISO 3166-1 alpha-2
+                        }
+            
+                        // Array que mapea códigos de país a sus monedas respectivas
+                        $monedas = array(
+                            "MX" => array("MXN", 1),       // Moneda y tasa de cambio por defecto para México
+                            "FR" => array("EUR", 0.045),   // Moneda para Francia y tasa de cambio ficticia MXN a EUR
+                            "IT" => array("EUR", 0.045),   // Moneda para Italia
+                            "LT" => array("EUR", 0.045),   // Moneda para Lituania
+                            "ES" => array("EUR", 0.045),   // Moneda para España
+                            "PT" => array("EUR", 0.045),   // Moneda para Portugal
+                            "CA" => array("CAD", 0.067),   // Moneda para Canadá y tasa de cambio ficticia MXN a CAD
+                            "CN" => array("CNY", 0.32),    // Moneda para China y tasa de cambio ficticia MXN a CNY
+                            "JP" => array("JPY", 5.68),    // Moneda para Japón y tasa de cambio ficticia MXN a JPY
+                            "CO" => array("COP", 200),     // Moneda para Colombia y tasa de cambio ficticia MXN a COP
+                            "US" => array("USD", 0.052),   // Moneda para Estados Unidos y tasa de cambio ficticia MXN a USD
+                            "VE" => array("VES", 1000000), // Moneda para Venezuela y tasa de cambio ficticia MXN a VES
+                            "BR" => array("BRL", 0.25),    // Moneda para Brasil y tasa de cambio ficticia MXN a BRL
+                            "AR" => array("ARS", 25),      // Moneda para Argentina y tasa de cambio ficticia MXN a ARS
+                            "HN" => array("HNL", 1.25),    // Moneda para Honduras y tasa de cambio ficticia MXN a HNL
+                            "SG" => array("SGD", 0.065),   // Moneda para Singapur y tasa de cambio ficticia MXN a SGD
+                            "PL" => array("PLN", 0.12),    // Moneda para Polonia y tasa de cambio ficticia MXN a PLN
+                            // Agrega más países según sea necesario
+                        );
+            
+                        // Obtener la ubicación del usuario
+                        $pais = obtenerUbicacion();
+            
+                        // Definir la moneda y la tasa de cambio basado en el país del usuario
+                        if (isset($monedas[$pais])) {
+                            $moneda = $monedas[$pais][0];
+                            $tasa_cambio = $monedas[$pais][1];
+                        } else {
+                            $moneda = "MXN"; // Moneda por defecto si no se encuentra el país
+                            $tasa_cambio = 1; // Tasa de cambio por defecto (sin conversión)
+                        }
+            
+                        // Precio del inmueble
+                        $precio = 100000000; // Ejemplo de precio en MXN
+            
+                        // Calcular el precio convertido
+                        $precio_convertido = $precio * $tasa_cambio;
+                    ?>
+                    
+                    <p class="texto_precio_inmueble"><?php echo '$' . number_format($precio_convertido, 2, '.', ','); ?></p>
+                    <p class="texto_moneda_inmueble"><?php echo $moneda; ?></p>
+                </div>
+            </div>
+
+            <div class="contenedor_universal_texto_2" style="justify-content: center;">
+                <p class="titulo_contenedor_universal_2">EL INMUEBLE PERFECTO</p>
+                <p class="descripcion_contenedor_universal_2">Para la persona perfecta</p>
+                <div class="contenedor_boton">
+                    <a href="https://dbdbusiness.com/sistema/index.php" target="_blank">
+                        <button class="boton_1">QUIERO EL MÍO</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_universal">
+            <div class="contenendor_titulo_universal" data-aos="flip-up">
+                <div class="contenendor_imagen_del_titulo_universal">
+                    <img src="assets/img/dbd.png" alt="" title="" class="imagen_dbd_titulo_universal">
+                </div>
+                <p class="texto_contenendor_titulo_universal">NUESTRO ALCANCE</p>
+            </div>
+
+            <div class="contenedor_universal_section_universal">
+                <div class="contenedor_universal_texto_4" style="justify-content: center;">
+                    <p class="titulo_contenedor_universal_2" id="titulo_2">MÉXICO</p>
+                    <p class="descripcion_contenedor_universal_2" id="frase_2" style="width: 100%;">DBD BUSINESS ESTÁ PRESENTE EN A LO LARGO DEL MUNDO, ABARCANDO PAÍSES COMO MÉXICO</p>
+                    <div class="tarjeta_circulos_estadistica" style="grid-gap: 0px 20px;">
+                        <div class="circulo_estadistica">
+                            <span class="porcentaje" data-target="60">60%</span>
+                        </div>
+                        <div class="contenedor_texto_porcentaje">
+                            <p class="texto_porcentaje">ALCANCE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor_imagen_section_universal_6" data-aos="flip-right">
+                    <img src="assets/img/mexico.png" alt="" title="" class="imagen_section_universal_pais" id="imagen_2">
+                </div>
+                <div class="contenedor_puntos">
+                    <div class="esfera" id="esfera_1"></div>
+                    <div class="esfera" id="esfera_2"></div>
+                    <div class="esfera" id="esfera_3"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section_universal">
+            <div class="contenendor_titulo_universal" data-aos="flip-up">
+                <div class="contenendor_imagen_del_titulo_universal">
+                    <img src="assets/img/dbd.png" alt="" title="" class="imagen_dbd_titulo_universal">
+                </div>
+                <p class="texto_contenendor_titulo_universal">CONTÁCTANOS</p>
+            </div>
+
+            <div class="contenedor_universal_section_universal">
+                <div action="enviar_formulario.php" method="POST" class="form_2">
+                    <p class="titulo_contenedor_universal_2">CONTACTO</p>
+                    <p class="descripcion_contenedor_universal_2" style="font-size: 20px;">Tel.: +(34) 643239641</p>
+                    <p class="descripcion_contenedor_universal_2" style="font-size: 20px;">Carrer Provenza 339 Barcelona - España</p>
+                    <p class="descripcion_contenedor_universal_2" style="font-size: 20px;">info@dbdbusiness.com</p>
+                    <div class="contenedor_boton">
+                        <a href="https://wa.me/34643239641" target="_blank">
+                            <button type="submit" class="boton_1" style="background-color: #128c7e;">WHATSAPP</button>
+                        </a>
+                    </div>
+                </div>
+
+                <form action="enviar_formulario.php" method="POST" class="form">
+                    <input type="text" id="nombre" name="nombre" class="input_1" placeholder="* Nombre Completo" required>
+            
+                    <input type="email" id="email" name="email" class="input_1" placeholder="* Correo Electrónico" required>
+            
+                    <input type="tel" id="telefono" name="telefono" class="input_1" placeholder="* Teléfono" required>
+
+                    <select id="pais" name="pais" class="input_3" required>
+                        <option value="" disabled selected>* País</option>
+                        <option value="Antigua y Barbuda">Antigua y Barbuda</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Bahamas">Bahamas</option>
+                        <option value="Barbados">Barbados</option>
+                        <option value="Belice">Belice</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Canadá">Canadá</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Dominica">Dominica</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="El Salvador">El Salvador</option>
+                        <option value="Estados Unidos">Estados Unidos</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Guyana">Guyana</option>
+                        <option value="Haití">Haití</option>
+                        <option value="Honduras">Honduras</option>
+                        <option value="Jamaica">Jamaica</option>
+                        <option value="México">México</option>
+                        <option value="Nicaragua">Nicaragua</option>
+                        <option value="Panamá">Panamá</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Perú">Perú</option>
+                        <option value="República Dominicana">República Dominicana</option>
+                        <option value="San Cristóbal y Nieves">San Cristóbal y Nieves</option>
+                        <option value="San Vicente y las Granadinas">San Vicente y las Granadinas</option>
+                        <option value="Santa Lucía">Santa Lucía</option>
+                        <option value="Surinam">Surinam</option>
+                        <option value="Trinidad y Tobago">Trinidad y Tobago</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Alemania">Alemania</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Azerbaiyán">Azerbaiyán</option>
+                        <option value="Bélgica">Bélgica</option>
+                        <option value="Bielorrusia">Bielorrusia</option>
+                        <option value="Bosnia y Herzegovina">Bosnia y Herzegovina</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Chipre">Chipre</option>
+                        <option value="Croacia">Croacia</option>
+                        <option value="Dinamarca">Dinamarca</option>
+                        <option value="Eslovaquia">Eslovaquia</option>
+                        <option value="Eslovenia">Eslovenia</option>
+                        <option value="España">España</option>
+                        <option value="Estonia">Estonia</option>
+                        <option value="Finlandia">Finlandia</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Grecia">Grecia</option>
+                        <option value="Hungría">Hungría</option>
+                        <option value="Irlanda">Irlanda</option>
+                        <option value="Islandia">Islandia</option>
+                        <option value="Italia">Italia</option>
+                        <option value="Kazajistán">Kazajistán</option>
+                        <option value="Letonia">Letonia</option>
+                        <option value="Liechtenstein">Liechtenstein</option>
+                        <option value="Lituania">Lituania</option>
+                        <option value="Luxemburgo">Luxemburgo</option>
+                        <option value="Macedonia del Norte">Macedonia del Norte</option>
+                        <option value="Malta">Malta</option>
+                        <option value="Moldavia">Moldavia</option>
+                        <option value="Mónaco">Mónaco</option>
+                        <option value="Montenegro">Montenegro</option>
+                        <option value="Noruega">Noruega</option>
+                        <option value="Países Bajos">Países Bajos</option>
+                        <option value="Polonia">Polonia</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Reino Unido">Reino Unido</option>
+                        <option value="República Checa">República Checa</option>
+                        <option value="Rumania">Rumania</option>
+                        <option value="Rusia">Rusia</option>
+                        <option value="San Marino">San Marino</option>
+                        <option value="Serbia">Serbia</option>
+                        <option value="Suecia">Suecia</option>
+                        <option value="Suiza">Suiza</option>
+                        <option value="Turquía">Turquía</option>
+                        <option value="Ucrania">Ucrania</option>
+                        <option value="Vaticano">Vaticano</option>
+                        <option value="Afganistán">Afganistán</option>
+                        <option value="Arabia Saudita">Arabia Saudita</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Azerbaiyán">Azerbaiyán</option>
+                        <option value="Bangladés">Bangladés</option>
+                        <option value="Baréin">Baréin</option>
+                        <option value="Birmania (Myanmar)">Birmania (Myanmar)</option>
+                        <option value="Brunéi">Brunéi</option>
+                        <option value="Bután">Bután</option>
+                        <option value="Camboya">Camboya</option>
+                        <option value="China">China</option>
+                        <option value="Corea del Norte">Corea del Norte</option>
+                        <option value="Corea del Sur">Corea del Sur</option>
+                        <option value="Emiratos Árabes Unidos">Emiratos Árabes Unidos</option>
+                        <option value="Filipinas">Filipinas</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="India">India</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Irak">Irak</option>
+                        <option value="Irán">Irán</option>
+                        <option value="Israel">Israel</option>
+                        <option value="Japón">Japón</option>
+                        <option value="Jordania">Jordania</option>
+                        <option value="Kazajistán">Kazajistán</option>
+                        <option value="Kirguistán">Kirguistán</option>
+                        <option value="Kuwait">Kuwait</option>
+                        <option value="Laos">Laos</option>
+                        <option value="Líbano">Líbano</option>
+                        <option value="Malasia">Malasia</option>
+                        <option value="Maldivas">Maldivas</option>
+                        <option value="Mongolia">Mongolia</option>
+                        <option value="Nepal">Nepal</option>
+                        <option value="Omán">Omán</option>
+                        <option value="Pakistán">Pakistán</option>
+                        <option value="Palestina">Palestina</option>
+                        <option value="Qatar">Qatar</option>
+                        <option value="Singapur">Singapur</option>
+                        <option value="Siria">Siria</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="Tailandia">Tailandia</option>
+                        <option value="Tayikistán">Tayikistán</option>
+                        <option value="Timor Oriental">Timor Oriental</option>
+                        <option value="Turkmenistán">Turkmenistán</option>
+                        <option value="Turquía">Turquía</option>
+                        <option value="Uzbekistán">Uzbekistán</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Yemen">Yemen</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Argelia">Argelia</option>
+                        <option value="Benín">Benín</option>
+                        <option value="Botsuana">Botsuana</option>
+                        <option value="Burkina Faso">Burkina Faso</option>
+                        <option value="Burundi">Burundi</option>
+                        <option value="Cabo Verde">Cabo Verde</option>
+                        <option value="Camerún">Camerún</option>
+                        <option value="Chad">Chad</option>
+                        <option value="Comoras">Comoras</option>
+                        <option value="República del Congo">República del Congo</option>
+                        <option value="República Democrática del Congo">República Democrática del Congo</option>
+                        <option value="Costa de Marfil">Costa de Marfil</option>
+                        <option value="Djibouti">Djibouti</option>
+                        <option value="Egipto">Egipto</option>
+                        <option value="Eritrea">Eritrea</option>
+                        <option value="Eswatini">Eswatini</option>
+                        <option value="Etiopía">Etiopía</option>
+                        <option value="Gabón">Gabón</option>
+                        <option value="Gambia">Gambia</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Guinea">Guinea</option>
+                        <option value="Guinea-Bissau">Guinea-Bissau</option>
+                        <option value="Guinea Ecuatorial">Guinea Ecuatorial</option>
+                        <option value="Kenia">Kenia</option>
+                        <option value="Lesoto">Lesoto</option>
+                        <option value="Liberia">Liberia</option>
+                        <option value="Libia">Libia</option>
+                        <option value="Madagascar">Madagascar</option>
+                        <option value="Malaui">Malaui</option>
+                        <option value="Malí">Malí</option>
+                        <option value="Marruecos">Marruecos</option>
+                        <option value="Mauricio">Mauricio</option>
+                        <option value="Mauritania">Mauritania</option>
+                        <option value="Mozambique">Mozambique</option>
+                        <option value="Namibia">Namibia</option>
+                        <option value="Níger">Níger</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Ruanda">Ruanda</option>
+                        <option value="Santo Tomé y Príncipe">Santo Tomé y Príncipe</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="Seychelles">Seychelles</option>
+                        <option value="Sierra Leona">Sierra Leona</option>
+                        <option value="Somalia">Somalia</option>
+                        <option value="Sudáfrica">Sudáfrica</option>
+                        <option value="Sudán">Sudán</option>
+                        <option value="Sudán del Sur">Sudán del Sur</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Togo">Togo</option>
+                        <option value="Túnez">Túnez</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Zambia">Zambia</option>
+                        <option value="Zimbabue">Zimbabue</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Fiyi">Fiyi</option>
+                        <option value="Islas Marshall">Islas Marshall</option>
+                        <option value="Islas Salomón">Islas Salomón</option>
+                        <option value="Kiribati">Kiribati</option>
+                        <option value="Micronesia">Micronesia</option>
+                        <option value="Nauru">Nauru</option>
+                        <option value="Nueva Zelanda">Nueva Zelanda</option>
+                        <option value="Palaos">Palaos</option>
+                        <option value="Papúa Nueva Guinea">Papúa Nueva Guinea</option>
+                        <option value="Samoa">Samoa</option>
+                        <option value="Tonga">Tonga</option>
+                        <option value="Tuvalu">Tuvalu</option>
+                        <option value="Vanuatu">Vanuatu</option>                    
+                    </select>
+
+                    <input type="text" id="estado" name="estado" class="input_3" placeholder="* Estado/Ciudad" required>
+            
+                    <textarea id="mensaje" name="mensaje" class="input_2" placeholder="* Mensaje" required></textarea>
+            
+                    <a href="files/notas/porquemepidenesto.html" target="_blank" class="texto_formulario">
+                        <p>¿Por qué me piden esto?</p>
+                    </a>
+                    <div class="contenedor_boton">
+                        <button type="submit" class="boton_1">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <div class="contenedor_inferior">
+        <a href="files/notas/terminosycondiciones.html" target="_blank">
+            <p class="texto_contenedor_inferior">Términos y condiciones</p>
+        </a>
+        <a href="files/notas/politicasyprivacidad.html" target="_blank">
+            <p class="texto_contenedor_inferior">Políticas y privacidad</p>
+        </a>
+        <div class="contenedor_boton" style="padding: 0px 20px; grid-gap: 20px 20px;">
+            <a href="https://www.facebook.com/dbdbusiness/" target="_blank">
+                <p class="texto_contenedor_inferior">Facebook</p>
+            </a>
+            <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdbdbusinesseuropa%2F&is_from_rle" target="_blank">
+                <p class="texto_contenedor_inferior">Instagram</p>
+            </a>
+            <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQG7WHKWHL210gAAAZBVO6pg7-pd3fObSPsX1WKtQi3LHWEbgdsGUvIkkwp3mNQT_JAzGIyuU8RLAyaMVkAnP9J7_3V9Nr8FgW_e64Efqbf31Z4zkK73g6sOs5ddN47beDlv2Y0=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F64561670%2Fadmin%2F" target="_blank">
+                <p class="texto_contenedor_inferior">LinkedIn</p>
+            </a>
+        </div>
+    </div>
+
+
+
+    <div class="contenedor_preloader" id="preloader">
+        <div class="contenedor_preloader_2">
+            <img src="assets/img/dbd.png" alt="" title="" class="imagen_preloader">
+        </div>
+    </div>
+
+
+
+    <div class="contenedor_menu" id="id_menu">
+        <div class="contenedor_menu_seccion_1">
+            <div class="contenedor_boton">
+                <img src="assets/img/logodbd.png" alt="" title="" class="imagen_menu">
+            </div>
+        </div>
+
+        <div class="contenedor_menu_seccion_2">
+            <div class="contenedor_boton">
+                <a href="files/blog.html">
+                    <button class="boton_nav_2">BLOG</button>
+                </a>
+            </div>
+            <div class="contenedor_boton">
+                <a href="#plataforma">
+                    <button class="boton_nav_2">PLATAFORMA</button>
+                </a>
+            </div>
+            <div class="contenedor_boton">
+                <a href="files/personal_shopper.html">
+                    <button class="boton_nav_2">PERSONAL SHOPPER</button>
+                </a>
+            </div>
+            <div class="contenedor_boton">
+                <a href="files/about.html">
+                    <button class="boton_nav_2">ABOUT</button>
+                </a>
+            </div>
+            <div class="contenedor_boton">
+                <a href="files/3d_y_renderizacion.html">
+                    <button class="boton_nav_2">3D Y RENDERIZACIÓN</button>
+                </a>
+            </div>
+            <div class="contenedor_boton">
+                <a href="https://dbdbusiness.com/sistema/index.php" target="_blank">
+                    <button class="boton_nav_2">SHOW ROOM</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="contenedor_menu_seccion_3">
+            <div class="contenedor_boton" style="grid-gap: 20px 20px;">
+                <a href="https://www.facebook.com/dbdbusiness/" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdbdbusinesseuropa%2F&is_from_rle" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQG7WHKWHL210gAAAZBVO6pg7-pd3fObSPsX1WKtQi3LHWEbgdsGUvIkkwp3mNQT_JAzGIyuU8RLAyaMVkAnP9J7_3V9Nr8FgW_e64Efqbf31Z4zkK73g6sOs5ddN47beDlv2Y0=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F64561670%2Fadmin%2F" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>

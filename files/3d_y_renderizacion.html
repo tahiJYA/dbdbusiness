@@ -1,0 +1,429 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Y RENDERIZACIÓN | DBD BUSINESS</title>
+
+
+
+    <!-- -------------- -->
+    <!-- ÍCONO | INICIO -->
+    <!-- -------------- -->
+    <link rel="icon" href="../assets/img/logodbd.webp" type="image/webp">
+    <link rel="apple-touch-icon" href="../assets/img/logodbd.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../assets/img/logodbd.ico" type="image/x-icon">
+    <!-- -------------- -->
+    <!-- ÍCONO |  FINAL -->
+    <!-- -------------- -->
+
+    
+
+    <!-- --------------------- -->
+    <!-- LOCAL STYLES | INICIO -->
+    <!-- --------------------- -->
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <!-- --------------------- -->
+    <!-- LOCAL STYLES |  FINAL -->
+    <!-- --------------------- -->
+    
+
+
+    <!-- --------------------- -->
+    <!-- GOOGLE FONTS | INICIO -->
+    <!-- --------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- --------------------- -->
+    <!-- GOOGLE FONTS |  FINAL -->
+    <!-- --------------------- -->
+
+
+
+    <!-- ------------ -->
+    <!-- AOS | INICIO -->
+    <!-- ------------ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ------------ -->
+    <!-- AOS |  FINAL -->
+    <!-- ------------ -->
+
+
+    
+    <!-- -------------------- -->
+    <!-- SWEETALERT2 | INICIO -->
+    <!-- -------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- ------------------- -->
+    <!-- SWEETALERT2 | FINAL -->
+    <!-- ------------------- -->
+
+
+
+    <!-- ---------------- -->
+    <!-- AWESOME | INICIO -->
+    <!-- ---------------- -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- ---------------- -->
+    <!-- AWESOME |  FINAL -->
+    <!-- ---------------- -->
+</head>
+<body class="body">
+    <nav class="nav">
+        <a href="#">
+            <img src="../assets/img/logodbd.png" class="imagen_logo_nav" alt="Logo de DBD Business">
+        </a>
+        <div class="contenedor_botones_nav">
+            <a href="#alcance" id="id_opciones_nav_1" class="enlace_nav">
+                <button class="boton_nav">PLATAFORMA</button>
+            </a>
+            <a href="personal_shopper.html" id="id_opciones_nav_2" class="enlace_nav">
+                <button class="boton_nav">PERSONAL SHOPPER</button>
+            </a>
+            <a href="about.html" id="id_opciones_nav_3" class="enlace_nav">
+                <button class="boton_nav">ABOUT</button>
+            </a>
+            <a href="3d_y_renderizacion.html" id="id_opciones_nav_4" class="enlace_nav">
+                <button class="boton_nav" style="color: #FF1801;">3D Y RENDERIZACIÓN</button>
+            </a>
+            <a href="../index.html" id="id_opciones_nav_4" class="enlace_nav">
+                <button class="boton_nav">INICIO</button>
+            </a>
+            <div class="display_menu" id="id_menu_icono">
+                <i class="fa-solid fa-bars" onClick="javascript:menu()"></i>
+            </div>
+            <div class="display_menu_2" id="id_cerrar_icono">
+                <i class="fa-solid fa-xmark" onClick="javascript:cerrar()"></i>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <header class="header">
+        <video id="headerVideo" class="header_video" autoplay loop muted>
+            <source src="../assets/img/video_1.mp4" type="video/mp4">
+        <!-- Añade más sources si tienes diferentes formatos de video -->
+        </video>
+        </header>
+
+
+        <section class="section_universal_2">
+            <div class="tarjeta_universal_2">
+                <div class="tarjeta_section_universal_2_seccion_1">
+                    <div class="contenedor_imagen_tarjeta_universal_2">
+                        <img src="../assets/img/3d.png" alt="" title="" class="imagen_tarjeta_2">
+                    </div>
+                    <div class="contenedor_texto_tarjeta_universal_2">
+                        <p class="texto_tarjeta_universal_2">RECORRIDOS VIRTUALES</p>
+                    </div>
+                </div>
+                <div class="tarjeta_section_universal_2_seccion_2">
+                    <p class="texto_descripcion_tarjeta_universal_2">Explora propiedades con nuestros recorridos virtuales en DBD BUSINESS. Descubre cada detalle desde la comodidad de tu dispositivo, en cualquier momento.</p>
+                </div>
+            </div>
+            <div class="tarjeta_universal_2">
+                <div class="tarjeta_section_universal_2_seccion_1">
+                    <div class="contenedor_imagen_tarjeta_universal_2">
+                        <img src="../assets/img/galeria-de-fotos.png" alt="" title="" class="imagen_tarjeta_2">
+                    </div>
+                    <div class="contenedor_texto_tarjeta_universal_2">
+                        <p class="texto_tarjeta_universal_2">GALERÍA</p>
+                    </div>
+                </div>
+                <div class="tarjeta_section_universal_2_seccion_2">
+                    <p class="texto_descripcion_tarjeta_universal_2">Explora nuestra galería en DBD BUSINESS. Descubre imágenes detalladas y videos de alta calidad de nuestras propiedades inmobiliarias.</p>
+                </div>
+            </div>
+            <div class="tarjeta_universal_2">
+                <div class="tarjeta_section_universal_2_seccion_1">
+                    <div class="contenedor_imagen_tarjeta_universal_2">
+                        <img src="../assets/img/modelado-3d.png" alt="" title="" class="imagen_tarjeta_2">
+                    </div>
+                    <div class="contenedor_texto_tarjeta_universal_2">
+                        <p class="texto_tarjeta_universal_2">TUS IDEAS 3D</p>
+                    </div>
+                </div>
+                <div class="tarjeta_section_universal_2_seccion_2">
+                    <p class="texto_descripcion_tarjeta_universal_2">Descubre tus ideas en 3D con DBD BUSINESS. Visualiza tus proyectos con detalles precisos y realistas, gracias a nuestras herramientas avanzadas de modelado y renderizado.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_universal" id="alcance">
+            <div class="contenendor_titulo_universal" data-aos="flip-up">
+                <div class="contenendor_imagen_del_titulo_universal">
+                    <img src="../assets/img/dbd.png" alt="" title="" class="imagen_dbd_titulo_universal">
+                </div>
+                <p class="texto_contenendor_titulo_universal">VIDEOS Y RECORRIDOS VIRTUALES</p>
+            </div>
+
+            <div class="contenedor_universal_section_universal" data-aos="fade-right">
+                <div class="contenedor_universal_texto_5" style="justify-content: left;">
+                    <p class="descripcion_contenedor_universal_7">Descubre nuestras visitas virtuales y videos profesionales en DBD BUSINESS. Sumérgete en recorridos inmersivos de nuestras propiedades inmobiliarias desde cualquier lugar, en cualquier momento.</p>
+                </div>
+
+                <div class="contenedor_imagen_section_universal_3">
+                    <iframe src="https://my.matterport.com/show/?m=RsKKA9cRJnj&play=1&ts=0" class="imagen_section_universal_1" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_universal" id="alcance">
+            <div class="contenendor_titulo_universal" data-aos="flip-up">
+                <div class="contenendor_imagen_del_titulo_universal">
+                    <img src="../assets/img/dbd.png" alt="" title="" class="imagen_dbd_titulo_universal">
+                </div>
+                <p class="texto_contenendor_titulo_universal">GALERÍA DE CONTENIDO</p>
+            </div>
+
+            
+            <p class="texto_descripcion_contenedor_universal">DBD BUSINESS surge para superar los desafíos de las pequeñas y medianas empresas del sector, consolidando proyectos con técnicas innovadoras en ventas y fidelización de clientes. Nuestra empresa se destaca como una de las comercializadoras más efectivas del mercado.</p>
+
+
+            <div class="contenedor_universal_section_universal" data-aos="fade-right" style="width: 100%;">
+                <div class="contenedor_universal_texto_5" style="justify-content: left; width: 100%;">
+                    <div id="flat">
+                        <ul>
+                            <li data-flip-title="Red" style="border-radius: 20px;">
+                                <img src="../assets/img/ilustracion_4.png" style="border-radius: 20px;">
+                            </li>
+                            <li data-flip-title="Razzmatazz" data-flip-category="Purples">
+                                <img src="../assets/img/ilustracion_2.png" style="border-radius: 20px;">
+                            </li>
+                            <li data-flip-title="Deep Lilac" data-flip-category="Purples">
+                                <img src="../assets/img/ilustracion_1.png" style="border-radius: 20px;">
+                            </li>
+                            <li data-flip-title="Daisy Bush" data-flip-category="Purples">
+                                <img src="../assets/img/ilustracion_3.png" style="border-radius: 20px;">
+                            </li>
+                            <li data-flip-title="Daisy Bush" data-flip-category="Purples">
+                                <img src="../assets/img/ilustracion_5.png" style="border-radius: 20px;">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_universal">
+            <div class="contenendor_titulo_universal" data-aos="flip-up">
+                <div class="contenendor_imagen_del_titulo_universal">
+                    <img src="../assets/img/dbd.png" alt="" title="" class="imagen_dbd_titulo_universal">
+                </div>
+                <p class="texto_contenendor_titulo_universal">MATERIALIZAMOS EN IMÁGENS 3D TUS IDEAS</p>
+            </div>
+            <div class="contenedor_universal_section_universal" data-aos="fade-right">
+                <div class="contenedor_imagen_section_universal_3">
+                    <img src="../assets/img/racamara.webp" alt="" title="" class="imagen_section_universal_1" style="height: 100%;">
+                </div>
+                <div class="contenedor_universal_texto_5" style="justify-content: center;">
+                    <p class="descripcion_contenedor_universal_7">Hoy en día, los compradores buscan propiedades en internet y luego contactan con agentes comerciales. Es crucial usar herramientas tecnológicas para acercar nuestro producto de manera confiable y responsable.</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+
+
+    <div class="contenedor_inferior">
+        <a href="../files/notas/terminosycondiciones.html" target="_blank">
+            <p class="texto_contenedor_inferior">Términos y condiciones</p>
+        </a>
+        <a href="../files/notas/politicasyprivacidad.html" target="_blank">
+            <p class="texto_contenedor_inferior">Políticas y privacidad</p>
+        </a>
+        <div class="contenedor_boton" style="padding: 0px 20px; grid-gap: 20px 20px;">
+            <a href="https://www.facebook.com/dbdbusiness/" target="_blank">
+                <p class="texto_contenedor_inferior">Facebook</p>
+            </a>
+            <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdbdbusinesseuropa%2F&is_from_rle" target="_blank">
+                <p class="texto_contenedor_inferior">Instagram</p>
+            </a>
+            <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQG7WHKWHL210gAAAZBVO6pg7-pd3fObSPsX1WKtQi3LHWEbgdsGUvIkkwp3mNQT_JAzGIyuU8RLAyaMVkAnP9J7_3V9Nr8FgW_e64Efqbf31Z4zkK73g6sOs5ddN47beDlv2Y0=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F64561670%2Fadmin%2F" target="_blank">
+                <p class="texto_contenedor_inferior">LinkedIn</p>
+            </a>
+        </div>
+    </div>
+
+
+
+    <div class="contenedor_preloader" id="preloader">
+        <div class="contenedor_preloader_2">
+            <img src="../assets/img/dbd.png" alt="" title="" class="imagen_preloader">
+        </div>
+    </div>
+
+
+
+    <div class="contenedor_menu" id="id_menu">
+        <div class="contenedor_menu_seccion_1">
+            <div class="contenedor_boton">
+                <img src="../assets/img/logodbd.png" alt="" title="" class="imagen_menu">
+            </div>
+        </div>
+
+        <div class="contenedor_menu_seccion_2">
+            <div class="contenedor_boton">
+                <button class="boton_nav_2">PLATAFORMA</button>
+            </div>
+            <div class="contenedor_boton">
+                <button class="boton_nav_2">PERSONAL SHOPPER</button>
+            </div>
+            <div class="contenedor_boton">
+                <button class="boton_nav_2">ABOUT</button>
+            </div>
+            <a href="3d_y_renderizacion.html" target="_blank">
+                <button class="boton_nav_2">3D Y RENDERIZACIÓN</button>
+            </a>
+            <div class="contenedor_boton">
+                <a href="https://dbdbusiness.com/sistema/index.php" target="_blank">
+                    <button class="boton_nav_2">SHOW ROOM</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="contenedor_menu_seccion_3">
+            <div class="contenedor_boton" style="grid-gap: 20px 20px;">
+                <a href="https://www.facebook.com/dbdbusiness/" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdbdbusinesseuropa%2F&is_from_rle" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQG7WHKWHL210gAAAZBVO6pg7-pd3fObSPsX1WKtQi3LHWEbgdsGUvIkkwp3mNQT_JAzGIyuU8RLAyaMVkAnP9J7_3V9Nr8FgW_e64Efqbf31Z4zkK73g6sOs5ddN47beDlv2Y0=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2F64561670%2Fadmin%2F" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ------------ -->
+    <!-- AOS | INICIO -->
+    <!-- ------------ -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ------------ -->
+    <!-- AOS |  FINAL -->
+    <!-- ------------ -->
+
+
+
+    <!-- ----------------- -->
+    <!-- CARRUSEL | INICIO -->
+    <!-- ----------------- -->
+    <script src="../assets/carrusel/demo/jquery.min.js"></script>
+    <script src="../assets/carrusel/dist/jquery.flipster.min.js"></script>
+
+    <link rel="stylesheet" href="../assets/carrusel/demo/demo.css">
+    <link rel="stylesheet" href="../assets/carrusel/dist/jquery.flipster.min.css">
+    <!-- ----------------- -->
+    <!-- CARRUSEL |  FINAL -->
+    <!-- ----------------- -->
+
+
+
+    <!-- ---------------------- -->
+    <!-- LOCAL SCRIPTS | INICIO -->
+    <!-- ---------------------- -->
+    <script src="../assets/scripts/main.js"></script>
+
+    <script>
+        var myFlipster = $('.my-flipster').flipster(); // It's best to store the element as a variable for easy reference.
+
+        myFlipster.flipster('next'); // Next item
+        myFlipster.flipster('prev'); // Previous item
+        myFlipster.flipster('jump', 0); // Jump to a specific index
+        myFlipster.flipster('jump', $('.my-item')); // Jump to a specific item
+        myFlipster.flipster('play'); // Resume autoplay
+        myFlipster.flipster('play', 5000); // Set autoplay duration
+        myFlipster.flipster('pause'); // Pause the autoplay until next jump
+        myFlipster.flipster('stop'); // Stop the autoplay entirely
+        myFlipster.flipster('index'); // If items are added or removed, you can tell Flipster to reindex
+
+
+        
+        var coverflow = $("#flat").flipster({
+        itemContainer: 'ul',
+        // [string|object]
+        // Selector for the container of the flippin' items.
+
+        itemSelector: 'li',
+        // [string|object]
+        // Selector for children of `itemContainer` to flip
+
+        start: 'center',
+        // ['center'|number]
+        // Zero based index of the starting item, or use 'center' to start in the middle
+
+        fadeIn: 400,
+        // [milliseconds]
+        // Speed of the fade in animation after items have been setup
+
+        loop: true,
+        // [true|false]
+        // Loop around when the start or end is reached
+
+        autoplay: 5000,
+        // [false|milliseconds]
+        // If a positive number, Flipster will automatically advance to next item after that number of milliseconds
+
+        pauseOnHover: true,
+        // [true|false]
+        // If true, autoplay advancement will pause when Flipster is hovered
+
+        style: 'flat',
+        // [coverflow|carousel|flat|...]
+        // Adds a class (e.g. flipster--coverflow) to the flipster element to switch between display styles
+        // Create your own theme in CSS and use this setting to have Flipster add the custom class
+
+        spacing: 0,
+        // [number]
+        // Space between items relative to each item's width. 0 for no spacing, negative values to overlap
+
+        click: true,
+        // [true|false]
+        // Clicking an item switches to that item
+
+        keyboard: true,
+        // [true|false]
+        // Enable left/right arrow navigation
+
+        scrollwheel: true,
+        // [true|false]
+        // Enable mousewheel/trackpad navigation; up/left = previous, down/right = next
+
+        touch: true,
+        // [true|false]
+        // Enable swipe navigation for touch devices
+
+        nav: false,
+        // [true|false|'before'|'after']
+        // If not false, Flipster will build an unordered list of the items
+        // Values true or 'before' will insert the navigation before the items, 'after' will append the navigation after the items
+
+        buttons: false,
+        // [true|false|'custom']
+        // If true, Flipster will insert Previous / Next buttons with SVG arrows
+        // If 'custom', Flipster will not insert the arrows and will instead use the values of `buttonPrev` and `buttonNext`
+
+        buttonPrev: 'Previous',
+        // [text|html]
+        // Changes the text for the Previous button
+
+        buttonNext: 'Next',
+        // [text|html]
+        // Changes the text for the Next button
+
+        onItemSwitch: false
+            // [function]
+            // Callback function when items are switched
+            // Arguments received: [currentItem, previousItem]
+    });
+    </script>
+    <!-- ---------------------- -->
+    <!-- LOCAL SCRIPTS |  FINAL -->
+    <!-- ---------------------- -->
+</body>
+</html>
